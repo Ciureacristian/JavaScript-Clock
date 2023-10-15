@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #2e2d2d
+  }
+
+.clock {
+    font-size: 76px;
+    font-family: "digital-7";
+    display: block;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: darkturquoise;
+    padding: 7px 14px;
+    box-shadow: 6px -4px 24px 10px rgba(44, 49, 59, 0.5)
+  }
+
+  .calendar {
+    font-size: 28px;
+    padding: 10px 0 15px 0;
+  }
+  
+  .time {
+    padding: 0 5px;
+    background: #ebebeb;
+    border: #dbdbdb;
+    border-radius: 20px;
+  }
